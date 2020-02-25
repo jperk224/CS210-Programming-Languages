@@ -2,7 +2,6 @@
 
 *Summarize the project and what problem it was solving.*\
 This project was our first foray into integrating languages.  We were provided the Java class and the integration code to call the class from our C++ code.  Admittedly, the Java class has some bugs and could be enhanced with exception handling.  Improving the Java class was beyond the scope of this project and unachievable in the timeframe provided.  It should, however, be one of the first steps in enhancing this program in the future.  Integration with this Java code was only a portion of the assignment.
-
 Mainly, we were tasked with creating a hypothetical zoo animal data maintenance prototype that called for integration with a Java class to write to an external text file.  The assignment also called for C++ code to create, retrieve, update, and remove animal data both locally and to/from the external text file.  We were also tasked with providing the ability to display the animal data on the console for the user in a particular tabular format.
 
 *What did you do particularly well?*\
@@ -10,7 +9,6 @@ The best thing I did in this project was to leverage parent class pointers and v
 
 *Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?*\
 The polymorphism techniques used in this program could likely be improved upon and written more succinctly.  As this was my first venture into this type of functionality, there is likely great room for improvement.  Improving in the arena and refactoring the script into more succinct code will improve efficiency and future troubleshooting efforts.  
-
 Exception handling is built into the user input functions defined in the program.  However, I leveraged the input functions to enforce accurate input, and did not define any exception handling on the class setters.  Some combination of the two will likely make acceptance and implementation of user input more robust and secure.  Maybe even leveraging enum data types would be beneficial is certain cases where the only acceptable input stems from a distinct list of values.   
 
 *Did you find writing any piece of this code challenging, and how did you overcome this? What tools and/or resources are you adding to your support network?*\
@@ -19,5 +17,5 @@ Reading from and writing to the external text file was one of the most challengi
 *What skills from this project will be particularly transferable to other projects and/or course work?*\
 Several skills from this project can be ported forward, including class inheritance and manipulation through polymorphism, memory management, and file manipulation.  This project also further developed my independent research skills that I only hope to keep improving on as my coursework and studies progress.  
 
-*How did you make this program maintainable, readable, and adaptable?*
+*How did you make this program maintainable, readable, and adaptable?*\
 The main tactic I used to keep this program maintainable was building it in a modular fashion, through the use of varying header and source files to separate classes and certain pieces of functionality.  Admittedly, some of the files could be broken up further and possibly even reorganized to ensure better consistency between scripts.  I strived for readability through the use of extensive comments outlining my reasoning and actions, using descriptive identifiers, and leveraging whitespace and proper formatting, while also writing only one statement per line.
